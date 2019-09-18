@@ -1,0 +1,28 @@
+* {
+    border: 1px solid black;
+}
+
+/* .menu {
+    color:aquamarine;
+    list-style: none;
+    width: 25%;
+    float:left;
+} */
+
+#main-header {
+    width: 50;
+    text-align: center;
+}
+
+body {
+    width: 960px;
+    margin: 0px auto;
+}
+
+/* the area below styles body main */
+
+img {
+    height: 300px
+    border: 10px dashed red;
+    border radius: 
+}
