@@ -7,4 +7,4 @@ response = 'Of course you do, get to it!'
     response = 'whatcha doing here then?'
 }
 
-document.write('<h3>' + greeting + '</h3>');
+document.write('<h3>' + response + '</h3>');
