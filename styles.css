@@ -1,6 +1,6 @@
-* {
-    border: 1px solid black;
-}
+
+body { background-color: black; }
+body {color: white;}
 
 /* .menu {
     color:aquamarine;
@@ -23,6 +23,18 @@ body {
 
 img {
     height: 300px
-    border: 10px dashed red;
-    border radius: 
+    width 200px
+    object-fit: cover;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
