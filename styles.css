@@ -2,12 +2,12 @@
 body { background-color: black; }
 body {color: white;}
 
-/* .menu {
+.menu {
     color:aquamarine;
     list-style: none;
     width: 25%;
     float:left;
-} */
+}
 
 #main-header {
     width: 50;
@@ -19,7 +19,7 @@ body {
     margin: 0px auto;
 }
 
-/* the area below styles body main */
+
 
 img {
     height: 250px
