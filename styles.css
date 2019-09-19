@@ -22,8 +22,8 @@ body {
 /* the area below styles body main */
 
 img {
-    height: 300px
-    width 200px
+    height: 250px
+    width 150px
     object-fit: cover;
 }
 
