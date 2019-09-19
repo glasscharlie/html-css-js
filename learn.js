@@ -1,10 +1,10 @@
-var answer = confirm('Do you want to learn about alpaca?');
-var response;
+// var answer = confirm('Do you want to learn about alpaca?');
+// var response;
 
-if(answer=== true) {
-response = 'Of course you do, get to it!'
-} else {
-    response = 'whatcha doing here then?'
-}
+// if(answer=== true) {
+// response = 'Of course you do, get to it!'
+// } else {
+//     response = 'whatcha doing here then?'
+// }
 
-document.write('<h3>' + response + '</h3>');
+// document.write('<h3>' + response + '</h3>');
