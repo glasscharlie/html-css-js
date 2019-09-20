@@ -1,11 +1,36 @@
-// var today = new Date();
-// var hourNow = today.getHours();
-// var greeting;
+function ayyo() {
+    var answer = '';
+    var answer;
+    while(answer === '') {
+        answer = prompt("do you like dogs? Answer yes or no.");
+    }
 
-// if (hourNow > 18) {
-//     greeting = 'Perfect evening for alpacas!';
-// } else if (hourNow > 12) {greeting = 'Perfect afternoon for alpacas'
-// } else if (hourNow > 0) {greeting = 'Perfect morning for alpacas'
-// }
+    while(answer !=='yes' || answer !=='no') {
+        answer = prompt("do you like dogs, yes or no?");
+    }
+}
 
-// document.write('<h3>' + greeting + '</h3>');
+if(answer=== 'yes') { message = 'Correct, alpacas are cute.' 
+    } else if (answer=== 'no') { message = 'Who do you think you are?'
+
+    return ('<h3>' + message + '<h3>');
+    
+}
+
+
+
+
+
+
+var howMany = function() {
+    var count = prompt('How many do you want?');
+    while(count === '' || isNaN(count)) {
+        count = prompt('Please enter a number. How many do you want?')
+    }
+    return number(count
+
+}
+
+function getItem() {
+    var order = 
+}
