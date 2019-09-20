@@ -1,6 +1,6 @@
 function addName() {
 var userName = prompt('What is your name?');
-return ('<h3>' + 'Hello ' + userName + ', lets learn about alpacas!' + '<h3>');
+return ('<h3>' + 'Hello ' + userName + ', lets learn about alpacas!' + '</h3>');
 }
 
 
@@ -33,7 +33,7 @@ if (hourNow > 18) {
 } else if (hourNow > 0) {greeting = 'Perfect morning for alpacas'
 }
 
-document.write('<h3>' + greeting + '<h3>');
+return '<h3>' + greeting + '</h3>';
 
 }
 
